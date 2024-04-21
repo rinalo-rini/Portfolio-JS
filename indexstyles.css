@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'general-bold';
-    src: url(fonts/GeneralSans_Complete/Fonts/OTF/GeneralSans-Bold.otf) format('opentype');
+    src: url(GeneralSans-Bold.otf) format('opentype');
 }
 
 * {
