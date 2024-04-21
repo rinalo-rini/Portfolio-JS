@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { title: "Clientele", tag: ["works"], img: "stats1.png"},
         { title: "Area Covered", tag: ["works"], img: "stats2.png"},
         { title: "Countries", tag: ["works"], img: "stats3.png"},
-        { title: "", tag: ["works"], img: "./blankslide.png"},
+        { title: "", tag: ["works"], img: "blankslide.png"},
 
         { title: "Client 01: Adidas", tag: ["works"], img: "adidaslogo2.png"},
         { title: "Adidas, Yas Mall, Abu Dubai", tag: ["works"], img: "works1.png"},
