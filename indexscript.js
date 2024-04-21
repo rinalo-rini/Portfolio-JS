@@ -44,13 +44,13 @@ document.addEventListener("DOMContentLoaded", () => {
         { title: "Innovative Architecture Firm Of The Year - 2022", tag: ["about"], img: "./award2.png"},
         { title: "Commercial Project Of The Year - 2022", tag: ["about"], img: "./award3.png"},
 
-        { title: "Currently", tag: ["experience"], img: "./photos/exp4.png"},
-        { title: "", tag: ["experience"], img: "./photos/blankslide.png"},
-        { title: "Previously", tag: ["experience"], img: "./photos/exp5.png"},
+        { title: "Currently", tag: ["experience"], img: "./exp4.png"},
+        { title: "", tag: ["experience"], img: "./blankslide.png"},
+        { title: "Previously", tag: ["experience"], img: "./pexp5.png"},
 
-        { title: "Myself, V Jaya Surya", tag: ["contact"], img: "./photos/myphoto.jpg"},
-        { title: "Email Address", tag: ["contact"], img: "./photos/mail3.png"},
-        { title: "Phone Number", tag: ["contact"], img: "./photos/phone1.png"}
+        { title: "Myself, V Jaya Surya", tag: ["contact"], img: "./myphoto.jpg"},
+        { title: "Email Address", tag: ["contact"], img: "./mail3.png"},
+        { title: "Phone Number", tag: ["contact"], img: "./phone1.png"}
     ];
 
     function splitTextIntoSpans(selector) {
