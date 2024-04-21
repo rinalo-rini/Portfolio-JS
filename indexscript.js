@@ -11,46 +11,46 @@ document.addEventListener("DOMContentLoaded", () => {
     const activeFontSize = "130px";
 
     const items = [
-        { title: "Clientele", tag: ["works"], img: "./stats1.png"},
-        { title: "Area Covered", tag: ["works"], img: "./stats2.png"},
-        { title: "Countries", tag: ["works"], img: "./stats3.png"},
+        { title: "Clientele", tag: ["works"], img: "stats1.png"},
+        { title: "Area Covered", tag: ["works"], img: "stats2.png"},
+        { title: "Countries", tag: ["works"], img: "stats3.png"},
         { title: "", tag: ["works"], img: "./blankslide.png"},
 
-        { title: "Client 01: Adidas", tag: ["works"], img: "./adidaslogo2.png"},
-        { title: "Adidas, Yas Mall, Abu Dubai", tag: ["works"], img: "./works1.png"},
-        { title: "Adidas Halo Store, Delhi", tag: ["works"], img: "./works2.png"},
-        { title: "Adidas Dubai Headquaters Gym, Dubai", tag: ["works"], img: "./works3.png"},
-        { title: "Adidas FO Pulse Store, Kalba UAE", tag: ["works"], img: "./works4.png"},
-        { title: "Adidas FO Pulse Store, Dubai Outlet Mall", tag: ["works"], img: "./works5.png"},
-        { title: "Adidas Gym, Dubai", tag: ["works"], img: "./works6.png"},
-        { title: "Adidas Halo Store, Citywall Mall, New Dubai", tag: ["works"], img: "./works7.png"},
-        { title: "Adidas Home Of Sport Kids, Dubai", tag: ["works"], img: "./works8.png"},
-        { title: "Adidas HOS Store, Namal, Tel Aviv", tag: ["works"], img: "./works9.png"},
-        { title: "Adidas Originals Flagshipstore", tag: ["works"], img: "./works10.png"},
-        { title: "Adidas Pop Up, Gamers8, Boulevard City", tag: ["works"], img: "./works11.png"},
-        { title: "Adidas Stadium Store, Nahkeel Mall, Dubai", tag: ["works"], img: "./works12.png"},
-        { title: "Adidas Home Of Sport Store, UWalk Mall, Dubai", tag: ["works"], img: "./works13.jpg"},
+        { title: "Client 01: Adidas", tag: ["works"], img: "adidaslogo2.png"},
+        { title: "Adidas, Yas Mall, Abu Dubai", tag: ["works"], img: "works1.png"},
+        { title: "Adidas Halo Store, Delhi", tag: ["works"], img: "works2.png"},
+        { title: "Adidas Dubai Headquaters Gym, Dubai", tag: ["works"], img: "works3.png"},
+        { title: "Adidas FO Pulse Store, Kalba UAE", tag: ["works"], img: "works4.png"},
+        { title: "Adidas FO Pulse Store, Dubai Outlet Mall", tag: ["works"], img: "works5.png"},
+        { title: "Adidas Gym, Dubai", tag: ["works"], img: "works6.png"},
+        { title: "Adidas Halo Store, Citywall Mall, New Dubai", tag: ["works"], img: "works7.png"},
+        { title: "Adidas Home Of Sport Kids, Dubai", tag: ["works"], img: "works8.png"},
+        { title: "Adidas HOS Store, Namal, Tel Aviv", tag: ["works"], img: "works9.png"},
+        { title: "Adidas Originals Flagshipstore", tag: ["works"], img: "works10.png"},
+        { title: "Adidas Pop Up, Gamers8, Boulevard City", tag: ["works"], img: "works11.png"},
+        { title: "Adidas Stadium Store, Nahkeel Mall, Dubai", tag: ["works"], img: "works12.png"},
+        { title: "Adidas Home Of Sport Store, UWalk Mall, Dubai", tag: ["works"], img: "works13.jpg"},
 
-        { title: "Client 02: Roberto Cavalli", tag: ["works"], img: "./robertologo.png"},
-        { title: "Roberto Cavalli Store", tag: ["works"], img: "./roberto.jpg"},
+        { title: "Client 02: Roberto Cavalli", tag: ["works"], img: "robertologo.png"},
+        { title: "Roberto Cavalli Store", tag: ["works"], img: "roberto.jpg"},
 
-        { title: "Client 03: Rolex", tag: ["works"], img: "./rolexlogo.png"},
-        { title: "Rolex Store", tag: ["works"], img: "./rolex.jpg"},
+        { title: "Client 03: Rolex", tag: ["works"], img: "rolexlogo.png"},
+        { title: "Rolex Store", tag: ["works"], img: "rolex.jpg"},
 
-        { title: "Client 04: Seiko", tag: ["works"], img: "./seikologo.png"},
-        { title: "Seiko Store", tag: ["works"], img: "./seiko.jpg"},
+        { title: "Client 04: Seiko", tag: ["works"], img: "seikologo.png"},
+        { title: "Seiko Store", tag: ["works"], img: "seiko.jpg"},
 
-        { title: "Retail Interior Design Of The Year - 2022", tag: ["about"], img: "./award1.png"},
-        { title: "Innovative Architecture Firm Of The Year - 2022", tag: ["about"], img: "./award2.png"},
-        { title: "Commercial Project Of The Year - 2022", tag: ["about"], img: "./award3.png"},
+        { title: "Retail Interior Design Of The Year - 2022", tag: ["about"], img: "award1.png"},
+        { title: "Innovative Architecture Firm Of The Year - 2022", tag: ["about"], img: "award2.png"},
+        { title: "Commercial Project Of The Year - 2022", tag: ["about"], img: "award3.png"},
 
-        { title: "Currently", tag: ["experience"], img: "./exp4.png"},
-        { title: "", tag: ["experience"], img: "./blankslide.png"},
-        { title: "Previously", tag: ["experience"], img: "./pexp5.png"},
+        { title: "Currently", tag: ["experience"], img: "exp4.png"},
+        { title: "", tag: ["experience"], img: "blankslide.png"},
+        { title: "Previously", tag: ["experience"], img: "exp5.png"},
 
-        { title: "Myself, V Jaya Surya", tag: ["contact"], img: "./myphoto.jpg"},
-        { title: "Email Address", tag: ["contact"], img: "./mail3.png"},
-        { title: "Phone Number", tag: ["contact"], img: "./phone1.png"}
+        { title: "Myself, V Jaya Surya", tag: ["contact"], img: "myphoto.jpg"},
+        { title: "Email Address", tag: ["contact"], img: "mail3.png"},
+        { title: "Phone Number", tag: ["contact"], img: "phone1.png"}
     ];
 
     function splitTextIntoSpans(selector) {
